@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food_baground"
+    tools:context=".Food">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="337dp"
+        android:layout_height="529dp"
+        android:text="𝔄 𝔥𝔢𝔞𝔩𝔱𝔥𝔶 𝔡𝔦𝔢𝔱 𝔦𝔰 𝔢𝔰𝔰𝔢𝔫𝔱𝔦𝔞𝔩 𝔣𝔬𝔯 𝔤𝔬𝔬𝔡 𝔥𝔢𝔞𝔩𝔱𝔥 𝔞𝔫𝔡 𝔫𝔲𝔱𝔯𝔦𝔱𝔦𝔬𝔫. ℑ𝔱 𝔭𝔯𝔬𝔱𝔢𝔠𝔱𝔰 𝔶𝔬𝔲 𝔞𝔤𝔞𝔦𝔫𝔰𝔱 𝔪𝔞𝔫𝔶 𝔠𝔥𝔯𝔬𝔫𝔦𝔠 𝔫𝔬𝔫𝔠𝔬𝔪𝔪𝔲𝔫𝔦𝔠𝔞𝔟𝔩𝔢 𝔡𝔦𝔰𝔢𝔞𝔰𝔢𝔰, 𝔰𝔲𝔠𝔥 𝔞𝔰 𝔥𝔢𝔞𝔯𝔱 𝔡𝔦𝔰𝔢𝔞𝔰𝔢, 𝔡𝔦𝔞𝔟𝔢𝔱𝔢𝔰 𝔞𝔫𝔡 𝔠𝔞𝔫𝔠𝔢𝔯. 𝔈𝔞𝔱𝔦𝔫𝔤 𝔞 𝔳𝔞𝔯𝔦𝔢𝔱𝔶 𝔬𝔣 𝔣𝔬𝔬𝔡𝔰 𝔞𝔫𝔡 𝔠𝔬𝔫𝔰𝔲𝔪𝔦𝔫𝔤 𝔩𝔢𝔰𝔰 𝔰𝔞𝔩𝔱, 𝔰𝔲𝔤𝔞𝔯𝔰 𝔞𝔫𝔡 𝔰𝔞𝔱𝔲𝔯𝔞𝔱𝔢𝔡 𝔞𝔫𝔡 𝔦𝔫𝔡𝔲𝔰𝔱𝔯𝔦𝔞𝔩𝔩𝔶-𝔭𝔯𝔬𝔡𝔲𝔠𝔢𝔡 𝔱𝔯𝔞𝔫𝔰-𝔣𝔞𝔱𝔰, 𝔞𝔯𝔢 𝔢𝔰𝔰𝔢𝔫𝔱𝔦𝔞𝔩 𝔣𝔬𝔯 𝔥𝔢𝔞𝔩𝔱𝔥𝔶 𝔡𝔦𝔢𝔱."
+        android:textColor="@color/white"
+        android:textSize="31sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="187dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="56dp"
+        android:text="𝔽𝕆𝕆𝔻"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

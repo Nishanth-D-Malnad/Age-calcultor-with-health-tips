@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/health_baground"
+    tools:context=".healthTips">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/round_btn"
+        android:text="My Page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kuuo" />
+
+    <Button
+        android:id="@+id/food"
+        android:layout_width="237dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="56dp"
+        android:text="FOOD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/organic"
+        android:layout_width="235dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="224dp"
+        android:text="ORGANIC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/excercise"
+        android:layout_width="233dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="352dp"
+        android:text="EXCERCISE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/meditation"
+        android:layout_width="233dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="88dp"
+        android:text="MEDITATION"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/excercise" />
+
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="233dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="92dp"
+        android:text="SPORTS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/meditation" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

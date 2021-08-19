@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food_baground"
+    tools:context=".Meditation">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="326dp"
+        android:layout_height="555dp"
+        android:text="𝔐𝔢𝔡𝔦𝔱𝔞𝔱𝔦𝔬𝔫 𝔠𝔞𝔫 𝔤𝔦𝔳𝔢 𝔶𝔬𝔲 𝔞 𝔰𝔢𝔫𝔰𝔢 𝔬𝔣 𝔠𝔞𝔩𝔪, 𝔭𝔢𝔞𝔠𝔢 𝔞𝔫𝔡 𝔟𝔞𝔩𝔞𝔫𝔠𝔢 𝔱𝔥𝔞𝔱 𝔠𝔞𝔫 𝔟𝔢𝔫𝔢𝔣𝔦𝔱 𝔟𝔬𝔱𝔥 𝔶𝔬𝔲𝔯 𝔢𝔪𝔬𝔱𝔦𝔬𝔫𝔞𝔩 𝔴𝔢𝔩𝔩-𝔟𝔢𝔦𝔫𝔤 𝔞𝔫𝔡 𝔶𝔬𝔲𝔯 𝔬𝔳𝔢𝔯𝔞𝔩𝔩 𝔥𝔢𝔞𝔩𝔱𝔥. 𝔄𝔫𝔡 𝔱𝔥𝔢𝔰𝔢 𝔟𝔢𝔫𝔢𝔣𝔦𝔱𝔰 𝔡𝔬𝔫'𝔱 𝔢𝔫𝔡 𝔴𝔥𝔢𝔫 𝔶𝔬𝔲𝔯 𝔪𝔢𝔡𝔦𝔱𝔞𝔱𝔦𝔬𝔫 𝔰𝔢𝔰𝔰𝔦𝔬𝔫 𝔢𝔫𝔡𝔰. 𝔐𝔢𝔡𝔦𝔱𝔞𝔱𝔦𝔬𝔫 𝔠𝔞𝔫 𝔥𝔢𝔩𝔭 𝔠𝔞𝔯𝔯𝔶 𝔶𝔬𝔲 𝔪𝔬𝔯𝔢 𝔠𝔞𝔩𝔪𝔩𝔶 𝔱𝔥𝔯𝔬𝔲𝔤𝔥 𝔶𝔬𝔲𝔯 𝔡𝔞𝔶 𝔞𝔫𝔡 𝔪𝔞𝔶 𝔥𝔢𝔩𝔭 𝔶𝔬𝔲 𝔪𝔞𝔫𝔞𝔤𝔢 𝔰𝔶𝔪𝔭𝔱𝔬𝔪𝔰 𝔬𝔣 𝔠𝔢𝔯𝔱𝔞𝔦𝔫 𝔪𝔢𝔡𝔦𝔠𝔞𝔩 𝔠𝔬𝔫𝔡𝔦𝔱𝔦𝔬𝔫𝔰."
+        android:textColor="@color/white"
+        android:textSize="31sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.835" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="272dp"
+        android:layout_height="53dp"
+        android:text="𝕄𝔼𝔻𝕀𝕋𝔸𝕋𝕀𝕆ℕ"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.776" />
+</androidx.constraintlayout.widget.ConstraintLayout>
